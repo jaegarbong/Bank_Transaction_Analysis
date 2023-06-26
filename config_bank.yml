@@ -1,0 +1,61 @@
+---
+pattern:
+  External Mutual Fund: "^BIL"
+  Internal Mutual Fund: "^CMS"
+  Card Payment: "^VPS"
+  UPI: "^UPI"
+  ATM: "^NFS"
+  NEFT: "^NEFT"
+  VIN: "^VIN"
+  Transfer: "^TRF"
+  VSI: "^VSI"
+ 
+date_columns:
+ - Value Date
+ - Transaction Date
+
+expense_columns:
+- Transaction Date
+- Day
+- Month
+- Withdrawal Amount
+- tnx_type
+
+months:
+- April
+- May
+- June
+- July
+- August
+- September
+- October
+- November
+- December
+- January
+- February
+- March
+
+upi_platform:
+ "paytm": Paytm
+ "Paytm": Paytm
+ "@payt": Paytm
+ "phonepe": PhonePe
+ "Payment from Ph": PhonePe
+ "gpay" : GooglePay
+ "bharatpe": BharatPe
+ "BHARATPE": BharatPe
+ "@okici": GooglePay
+ "@okhdfcbank": GooglePay
+ "@okaxis": GooglePay
+ "@oksbi": GooglePay 
+ "@axis": Axis UPI
+ "JIO": Jio UPI
+ "jio": Jio UPI
+ "AMZN": Amazon UPI
+ "HDFC": HDFC
+ "HSBC": HSBC
+ "Axis": Axis Bank
+ "@ybl": Yes Bank
+ "Yes Bank": Yes Bank
+ "Citi": CitiBank 
+ "ICICI": ICICI Bank
