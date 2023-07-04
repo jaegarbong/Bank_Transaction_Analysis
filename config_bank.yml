@@ -1,14 +1,16 @@
 ---
 pattern:
-  External Mutual Fund: "^BIL"
-  Internal Mutual Fund: "^CMS"
+  Salary: "^NEFT.*CKUENS"
+  External MF: "^BIL/BPAY"
+  Internal MF: "^CMS"
+  Online Card: "^BIL/ONL"
   Card Payment: "^VPS"
   UPI: "^UPI"
   ATM: "^NFS"
   NEFT: "^NEFT"
   VIN: "^VIN"
   Transfer: "^TRF"
-  VSI: "^VSI"
+  VSI: "^VSI"  
  
 date_columns:
  - Value Date
@@ -59,3 +61,10 @@ upi_platform:
  "Yes Bank": Yes Bank
  "Citi": CitiBank 
  "ICICI": ICICI Bank
+
+monthly_exp_type:
+- External MF
+- Internal MF
+
+monthly_exp_threshold: 2000
+tnx_date: Transaction Date
