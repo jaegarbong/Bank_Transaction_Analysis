@@ -1,4 +1,6 @@
 ---
+seed: 42
+
 pattern:
   Salary: "^NEFT.*CKUENS"
   External MF: "^BIL/BPAY"
