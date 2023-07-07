@@ -1,5 +1,5 @@
 ---
-seed: 42
+seed: 101
 
 pattern:
   Salary: "^NEFT.*CKUENS"
@@ -63,10 +63,12 @@ upi_platform:
  "Yes Bank": Yes Bank
  "Citi": CitiBank 
  "ICICI": ICICI Bank
+ "Punj": PNB
+ "State Bank Of": SBI
 
-monthly_exp_type:
+mf:
 - External MF
 - Internal MF
 
-monthly_exp_threshold: 2000
+monthly_exp_threshold: 3000
 tnx_date: Transaction Date
